@@ -32,6 +32,7 @@ export default defineComponent({
 
 
 <style scoped lang="less">
+@import '~@fect-ui/themes/main.css';
 .implementation-doc__route_content {
     margin-bottom: var(--fay-gap);
     .title {

@@ -17,7 +17,6 @@ import {
           // 判断是不是虚拟节点
           if (isVNode(child)) {
             result.push(child)
-            console.log(result, ":result==>")
             if (child.component?.subTree) {
               traverse(child.component.subTree.children)
             }

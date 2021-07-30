@@ -903,6 +903,16 @@
     "@babel/helper-validator-identifier" "^7.14.8"
     to-fast-properties "^2.0.0"
 
+"@fect-ui/markdown-loader@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@fect-ui/markdown-loader/-/markdown-loader-0.0.1.tgz#0539a8ac04bd4d473f3892db8fa6a8ea67d2dba9"
+  integrity sha512-1q5LaZRUaqTeDS5AjKGDpA70xurXoG4jHe2iaB1Rupd2vH+slf6Jrnoka21gyoEhXagj8O03ms9qlvMXZfv2Gw==
+  dependencies:
+    "@types/loader-utils" "^2.0.2"
+    highlight.js "^11.0.1"
+    loader-utils "^2.0.0"
+    markdown-it "^12.1.0"
+
 "@fect-ui/themes@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@fect-ui/themes/-/themes-1.0.7.tgz#1bcb6a8d2720b40d81ebd66c39aee7e878f15a09"
@@ -1043,6 +1053,14 @@
   version "7.0.8"
   resolved "https://registry.nlark.com/@types/json-schema/download/@types/json-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
   integrity sha1-7fG/Hb9OBEE8qOWxezt9fVS1mBg=
+
+"@types/loader-utils@^2.0.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/loader-utils/-/loader-utils-2.0.3.tgz#fbc2337358f8f4a7dc532ac0a3646c74275edf2d"
+  integrity sha512-sDXXzZnTLXgdso54/iOpAFSDgqhVXabCvwGAt77Agadh/Xk0QYgOk520r3tpOouI098gyqGIFywx8Op1voc3vQ==
+  dependencies:
+    "@types/node" "*"
+    "@types/webpack" "^4"
 
 "@types/mime@^1":
   version "1.3.2"
@@ -1806,6 +1824,11 @@ argparse@^1.0.7:
   integrity sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=
   dependencies:
     sprintf-js "~1.0.2"
+
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
 arr-diff@^4.0.0:
   version "4.0.0"
@@ -3097,11 +3120,6 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-de-indent@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
-  integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
-
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
   resolved "https://registry.nlark.com/debug/download/debug-2.6.9.tgz?cache=0&sync_timestamp=1625374648057&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdebug%2Fdownload%2Fdebug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -3469,6 +3487,11 @@ entities@^2.0.0:
   version "2.2.0"
   resolved "https://registry.nlark.com/entities/download/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
   integrity sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
+
+entities@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.1.0.tgz#992d3129cf7df6870b96c57858c249a120f8b8b5"
+  integrity sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==
 
 errno@^0.1.1, errno@^0.1.3, errno@~0.1.7:
   version "0.1.8"
@@ -4261,7 +4284,7 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-he@1.2.x, he@^1.1.0:
+he@1.2.x:
   version "1.2.0"
   resolved "https://registry.nlark.com/he/download/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
@@ -4275,6 +4298,11 @@ highlight.js@^10.7.1:
   version "10.7.3"
   resolved "https://registry.nlark.com/highlight.js/download/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha1-aXJy45kTVuQMPKxWanTu9oF1ZTE=
+
+highlight.js@^11.0.1:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.1.0.tgz#0198f7326e64ddfbea5f76b00e84ab542cf24ae8"
+  integrity sha512-X9VVhYKHQPPuwffO8jk4bP/FVj+ibNCy3HxZZNDXFtJrq4O5FdcdCDRIkDis5MiMnjh7UwEdHgRZJcHFYdzDdA==
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
@@ -5147,6 +5175,13 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.nlark.com/lines-and-columns/download/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
+linkify-it@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-3.0.2.tgz#f55eeb8bc1d3ae754049e124ab3bb56d97797fb8"
+  integrity sha512-gDBO4aHNZS6coiZCKVhSNh43F9ioIL4JwRjLZPkoLIY4yZFwg264Y5lu2x6rb1Js42Gh6Yqm2f6L2AJcnkzinQ==
+  dependencies:
+    uc.micro "^1.0.1"
+
 loader-runner@^2.3.1, loader-runner@^2.4.0:
   version "2.4.0"
   resolved "https://registry.nlark.com/loader-runner/download/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
@@ -5313,6 +5348,17 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markdown-it@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.1.0.tgz#7ad572caddd336bd27a68d20e86bac1fafe8fb20"
+  integrity sha512-7temG6IFOOxfU0SgzhqR+vr2diuMhyO5uUIEZ3C5NbXhqC9uFUHoU41USYuDFoZRsaY7BEIEei874Z20VMLF6A==
+  dependencies:
+    argparse "^2.0.1"
+    entities "~2.1.0"
+    linkify-it "^3.0.1"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.npm.taobao.org/md5.js/download/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -5331,6 +5377,11 @@ mdn-data@2.0.4:
   version "2.0.4"
   resolved "https://registry.nlark.com/mdn-data/download/mdn-data-2.0.4.tgz?cache=0&sync_timestamp=1626306527975&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmdn-data%2Fdownload%2Fmdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"
   integrity sha1-aZs8OKxvHXKAkaZGULZdOIUC/Vs=
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
+  integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -6603,6 +6654,11 @@ pretty-error@^2.0.2:
   dependencies:
     lodash "^4.17.20"
     renderkid "^2.0.4"
+
+prismjs@^1.24.1:
+  version "1.24.1"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.1.tgz#c4d7895c4d6500289482fa8936d9cdd192684036"
+  integrity sha512-mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
@@ -7924,6 +7980,11 @@ typescript@~4.1.5:
   resolved "https://registry.nlark.com/typescript/download/typescript-4.1.6.tgz#1becd85d77567c3c741172339e93ce2e69932138"
   integrity sha1-G+zYXXdWfDx0EXIznpPOLmmTITg=
 
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
+  integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
+
 uglify-js@3.4.x:
   version "3.4.10"
   resolved "https://registry.nlark.com/uglify-js/download/uglify-js-3.4.10.tgz?cache=0&sync_timestamp=1627379738025&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fuglify-js%2Fdownload%2Fuglify-js-3.4.10.tgz#9ad9563d8eb3acdfb8d38597d2af1d815f6a755f"
@@ -8179,14 +8240,28 @@ vue-hot-reload-api@^2.3.0:
 
 vue-loader@^15.9.2:
   version "15.9.6"
-  resolved "https://registry.nlark.com/vue-loader/download/vue-loader-15.9.6.tgz?cache=0&sync_timestamp=1626830451373&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-loader%2Fdownload%2Fvue-loader-15.9.6.tgz#f4bb9ae20c3a8370af3ecf09b8126d38ffdb6b8b"
-  integrity sha1-9Lua4gw6g3CvPs8JuBJtOP/ba4s=
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.9.6.tgz#f4bb9ae20c3a8370af3ecf09b8126d38ffdb6b8b"
+  integrity sha512-j0cqiLzwbeImIC6nVIby2o/ABAWhlppyL/m5oJ67R5MloP0hj/DtFgb0Zmq3J9CG7AJ+AXIvHVnJAPBvrLyuDg==
   dependencies:
     "@vue/component-compiler-utils" "^3.1.0"
     hash-sum "^1.0.2"
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-loader@^16.1.2:
+  version "16.3.3"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.3.3.tgz#e440e4eb12786e16138b5d98b612208f29ddf532"
+  integrity sha512-/1GzCuQ6MRORbC+leKTKoTGtpQt60bYe0gDGEextSteA2OM+v201FPha5jzmjQzVhRcwieZeUvezAtG5a/e5cw==
+  dependencies:
+    chalk "^4.1.0"
+    hash-sum "^2.0.0"
+    loader-utils "^2.0.0"
+
+vue-prism-component@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vue-prism-component/-/vue-prism-component-2.0.0.tgz#eec89c5fe1ea3d8b55b8721d823b29d8b73b2b6d"
+  integrity sha512-1ofrL+GCZOv4HqtX5W3EgkhSAgadSeuD8FDTXbwhLy8kS+28RCR8t2S5VTeM9U/peAaXLBpSgRt3J25ao8KTeg==
 
 vue-router@^4.0.0-0:
   version "4.0.10"
@@ -8202,14 +8277,6 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
-
-vue-template-compiler@^2.6.14:
-  version "2.6.14"
-  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.14.tgz#a2f0e7d985670d42c9c9ee0d044fed7690f4f763"
-  integrity sha512-ODQS1SyMbjKoO1JBJZojSw6FE4qnh9rIpUZn2EUT86FKizx9uH5z6uXiIrm4/Nb/gwxTi/o17ZDEGWAXHvtC7g==
-  dependencies:
-    de-indent "^1.0.2"
-    he "^1.1.0"
 
 vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"

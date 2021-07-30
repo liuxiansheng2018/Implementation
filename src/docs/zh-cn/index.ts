@@ -18,7 +18,7 @@ export const zhRoutes: Routes[] = [
             {title: '安装', group: '快速上手', route: {name: 'Install'}},
             {title: '按需导入', group: '快速上手', route: {name: 'Into'}},
             {
-                title: '什么是implementation UI',
+                title: '什么是im UI',
                 group: '快速上手',
                 route:{name: 'Introduce'}
             }

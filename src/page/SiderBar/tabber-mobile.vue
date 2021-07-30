@@ -40,7 +40,7 @@ export default defineComponent({
 <style lang="less" scoped>
 @import '~@fect-ui/themes/main.css';
 @breakpoint: 650px;
-.fect-doc__tab-mobile {
+.implementation-doc__tab-mobile {
   position: fixed;
   top: 0;
   left: 0;
@@ -55,17 +55,18 @@ export default defineComponent({
   padding: 0 0.8rem;
   background-color: var(--primary-background);
   transition: height 0.2s ease-in-out;
+  display: none;
   // box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
 }
 @media only screen and (max-width: @breakpoint) {
-  .fect-doc__tab-icons {
+  .implementation-doc__tab-icons {
     height: 30px;
     width: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .fect-doc__tab-mobile {
+  .implementation-doc__tab-mobile {
     display: flex;
     span {
       font-size: 12px;
