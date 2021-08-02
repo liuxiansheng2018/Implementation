@@ -1,8 +1,10 @@
 import {App} from 'vue'
 import Link from './Link'
-
+import Spacer from './spacer'
+ 
 const components = [
-    Link
+    Link,
+    Spacer
 ]
 const install = (app:App) => {
     components.map((component:any) => {
