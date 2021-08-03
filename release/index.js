@@ -1,4 +1,5 @@
 const chalk = require('chalk')
+// shell和本地外部程序的javascript封装
 const execa = require('execa')
 const {
     prompt
